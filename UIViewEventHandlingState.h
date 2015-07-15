@@ -1,10 +1,3 @@
-//
-//  UIViewEventHandlingState.h
-//  Symphony_ipad
-//
-//  Created by Phil Lee on 6/18/15.
-//
-//
 
 #ifndef Symphony_ipad_UIViewEventHandlingState_h
 #define Symphony_ipad_UIViewEventHandlingState_h
