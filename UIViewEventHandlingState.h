@@ -1,7 +1,4 @@
 
-#ifndef Symphony_ipad_UIViewEventHandlingState_h
-#define Symphony_ipad_UIViewEventHandlingState_h
-
 //Event handling state to be encapsulated by a custom UIView that performs simple user interaction such as dragging, touch inside, touch+hold
 typedef struct EventHandlingState{
     
@@ -19,5 +16,3 @@ typedef struct EventHandlingState{
     s.touchesMoved = NO;
 
 #define EventHandlingStateTouchEventOccurring(e) (!CGPointEqualToPoint(e.touchedDownPoint,CGPointZero))
-
-#endif
